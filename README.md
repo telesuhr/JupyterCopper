@@ -34,20 +34,26 @@ LME-Copper-Analysis/
 │   ├── automated_scheduler.py    # 自動データ更新
 │   └── data_quality_monitor.py   # データ品質監視
 ├── 📈 analysis_notebooks/        # 分析ノートブック
-│   ├── Cash/3Mスプレッド分析 (15ノートブック)
+│   ├── cash_3m_spread/          # Cash/3Mスプレッド分析 (12ノートブック)
 │   │   ├── 1_spread_curve_dynamics.ipynb
 │   │   ├── 2_spread_volatility_liquidity.ipynb
+│   │   ├── 3_spread_correlation_cointegration.ipynb
+│   │   ├── 4_spread_volatility_risk.ipynb
 │   │   ├── 5_spread_term_structure_volatility.ipynb
 │   │   ├── 6_cash_3m_spread_visualization.ipynb
 │   │   ├── 7_cash_3m_spread_timeseries_analysis.ipynb
 │   │   ├── 8_cash_3m_spread_modeling_comprehensive.ipynb
-│   │   └── 9_cash_3m_spread_interpretation_guide.ipynb
-│   └── outright_3m/             # 3Mアウトライト価格分析
+│   │   ├── 9_cash_3m_spread_interpretation_guide.ipynb
+│   │   ├── 10_spread_results_interpretation.ipynb
+│   │   ├── 11_spread_next_steps_roadmap.ipynb
+│   │   └── README.md
+│   └── outright_3m/             # 3Mアウトライト価格分析 (5ノートブック)
 │       ├── 6_lme_3m_outright_visualization.ipynb
 │       ├── 7_lme_3m_timeseries_analysis.ipynb
 │       ├── 8_timeseries_interpretation_guide.ipynb
 │       ├── 9_timeseries_modeling_comprehensive.ipynb
-│       └── 10_modeling_results_interpretation.ipynb
+│       ├── 10_modeling_results_interpretation.ipynb
+│       └── README.md
 ├── 🔧 src/                      # ソースコード
 │   ├── data_utils.py            # データ処理ユーティリティ
 │   ├── models.py                # 予測モデル
@@ -118,18 +124,22 @@ python data_collection/automated_scheduler.py
 # Jupyter Notebook起動
 jupyter notebook analysis_notebooks/
 
-# Cash/3Mスプレッド分析
-# 1-5: 基本統計・可視化・リスク分析
-# 6: 包括的可視化分析
+# Cash/3Mスプレッド分析 (cash_3m_spread/)
+# 1: スプレッドカーブダイナミクス
+# 2: ボラティリティ・流動性分析  
+# 3: 相関・共和分分析
+# 4: ボラティリティリスク
+# 5: ターム構造分析
+# 6: 包括的可視化
 # 7: 時系列分析 (ARIMA/GARCH)
 # 8: 機械学習モデリング
 # 9: 実践的解釈ガイド
+# 10-11: 結果解釈・ロードマップ
 
-# 3Mアウトライト分析
-cd analysis_notebooks/outright_3m/
+# 3Mアウトライト分析 (outright_3m/)
 # 6: LME 3M価格可視化
 # 7: 時系列分析
-# 8: 解釈ガイド
+# 8: 解釈ガイド  
 # 9: 包括的モデリング
 # 10: 結果解釈
 ```
