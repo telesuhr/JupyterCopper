@@ -2,7 +2,7 @@
 
 ## 🏆 プロジェクト概要
 
-**LME Copper Analysis**は、LME（ロンドン金属取引所）銅のCash/3Mスプレッドを中心とした包括的な市場分析プラットフォームです。データ取得から高度な機械学習モデリング、実践的なトレーディング戦略まで、銅市場分析の全工程をカバーします。
+**LME Copper Analysis**は、LME（ロンドン金属取引所）銅の包括的な市場分析プラットフォームです。**Cash/3Mスプレッド分析**と**3Mアウトライト価格分析**の両方をカバーし、データ取得から高度な機械学習モデリング、実践的なトレーディング戦略まで、銅市場分析の全工程を提供します。
 
 ## 🚀 主要機能
 
@@ -34,11 +34,20 @@ LME-Copper-Analysis/
 │   ├── automated_scheduler.py    # 自動データ更新
 │   └── data_quality_monitor.py   # データ品質監視
 ├── 📈 analysis_notebooks/        # 分析ノートブック
-│   ├── 1_data_exploration.ipynb  # データ探索・可視化
-│   ├── 2_spread_visualization.ipynb # スプレッド基本分析
-│   ├── 3_time_series_analysis.ipynb # 時系列統計分析
-│   ├── 4_ml_modeling.ipynb       # 機械学習モデリング
-│   └── 5_trading_strategy.ipynb  # トレーディング戦略
+│   ├── Cash/3Mスプレッド分析 (15ノートブック)
+│   │   ├── 1_spread_curve_dynamics.ipynb
+│   │   ├── 2_spread_volatility_liquidity.ipynb
+│   │   ├── 5_spread_term_structure_volatility.ipynb
+│   │   ├── 6_cash_3m_spread_visualization.ipynb
+│   │   ├── 7_cash_3m_spread_timeseries_analysis.ipynb
+│   │   ├── 8_cash_3m_spread_modeling_comprehensive.ipynb
+│   │   └── 9_cash_3m_spread_interpretation_guide.ipynb
+│   └── outright_3m/             # 3Mアウトライト価格分析
+│       ├── 6_lme_3m_outright_visualization.ipynb
+│       ├── 7_lme_3m_timeseries_analysis.ipynb
+│       ├── 8_timeseries_interpretation_guide.ipynb
+│       ├── 9_timeseries_modeling_comprehensive.ipynb
+│       └── 10_modeling_results_interpretation.ipynb
 ├── 🔧 src/                      # ソースコード
 │   ├── data_utils.py            # データ処理ユーティリティ
 │   ├── models.py                # 予測モデル
@@ -109,12 +118,20 @@ python data_collection/automated_scheduler.py
 # Jupyter Notebook起動
 jupyter notebook analysis_notebooks/
 
-# 推奨実行順序：
-# 1. data_exploration.ipynb
-# 2. spread_visualization.ipynb  
-# 3. time_series_analysis.ipynb
-# 4. ml_modeling.ipynb
-# 5. trading_strategy.ipynb
+# Cash/3Mスプレッド分析
+# 1-5: 基本統計・可視化・リスク分析
+# 6: 包括的可視化分析
+# 7: 時系列分析 (ARIMA/GARCH)
+# 8: 機械学習モデリング
+# 9: 実践的解釈ガイド
+
+# 3Mアウトライト分析
+cd analysis_notebooks/outright_3m/
+# 6: LME 3M価格可視化
+# 7: 時系列分析
+# 8: 解釈ガイド
+# 9: 包括的モデリング
+# 10: 結果解釈
 ```
 
 ### 💼 トレーディングシステム
@@ -126,18 +143,26 @@ python src/trading_signals.py --live
 python src/backtesting.py --strategy mean_reversion --start-date 2023-01-01
 ```
 
-## 🎯 Cash/3Mスプレッド分析
+## 🎯 包括的分析アプローチ
 
-### スプレッドとは
+### 📊 Cash/3Mスプレッド分析
+**焦点**: 市場構造・需給バランス・裁定機会
 - **定義**: Cash価格 - 3M先物価格
 - **バックワーデーション（正値）**: 現物 > 先物（需給タイト）
 - **コンタンゴ（負値）**: 現物 < 先物（供給過多）
+- **活用**: スプレッド取引・市場構造分析・リスク管理
 
-### 分析指標
-- **統計指標**: 平均・標準偏差・歪度・尖度
-- **時系列特性**: 定常性・自己相関・季節性
-- **リスク指標**: VaR・CVaR・最大ドローダウン
-- **予測精度**: MAE・RMSE・方向的中率
+### 📈 3Mアウトライト価格分析
+**焦点**: 絶対価格レベル・トレンド予測・方向性戦略
+- **対象**: LME銅3ヶ月先物（CMCU3）
+- **分析**: 価格トレンド・ボラティリティ・技術指標
+- **予測**: 機械学習・時系列モデルによる価格予測
+- **活用**: 方向性取引・ヘッジ戦略・ポートフォリオ管理
+
+### 🔄 両分析の相乗効果
+- **統合戦略**: スプレッド + アウトライトのコンビネーション
+- **リスク分散**: 異なるリスクファクターへの対応
+- **機会最大化**: 市場構造と価格動向の両面活用
 
 ## 🤖 機械学習モデル
 
