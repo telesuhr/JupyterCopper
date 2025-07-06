@@ -1,0 +1,145 @@
+2025-07-05 01:38:58,021 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 01:38:58,047 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 01:38:58,048 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 01:38:58,048 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 01:38:58,048 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 01:38:58,053 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 01:38:58,053 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY0NzEzOCwiZXhwIjoxNzUyODU2NzM4fQ.pA4KE9nipmghHXuoxpdXn5UmFY_2y-BBY5cBHlZuffk","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 01:38:58,053 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 01:38:58,054 - INFO - EIKON API initialized successfully
+2025-07-05 01:38:58,077 - INFO - Database connection established
+2025-07-05 01:38:58,101 - INFO - Database schema created successfully
+2025-07-05 01:38:58,101 - INFO - Collecting data from 2022-07-06 to 2025-07-05
+2025-07-05 01:38:58,101 - INFO - Processing 3M_OUTRIGHT (CMCU3=LME)
+2025-07-05 01:38:58,101 - INFO - Fetching data for CMCU3=LME from 2022-07-06 to 2025-07-05
+2025-07-05 01:38:58,101 - ERROR - Error fetching historical data for CMCU3=LME: get_timeseries() got an unexpected keyword argument 'instruments'
+2025-07-05 01:38:58,101 - ERROR - No data available for 3M_OUTRIGHT
+2025-07-05 01:38:58,101 - INFO - Processing CASH_3M_SPREAD (CMCU0-CMCU3=LME)
+2025-07-05 01:38:58,101 - INFO - Fetching data for CMCU0-CMCU3=LME from 2022-07-06 to 2025-07-05
+2025-07-05 01:38:58,101 - ERROR - Error fetching historical data for CMCU0-CMCU3=LME: get_timeseries() got an unexpected keyword argument 'instruments'
+2025-07-05 01:38:58,101 - ERROR - No data available for CASH_3M_SPREAD
+2025-07-05 01:38:58,101 - INFO - Data collection completed. Successfully processed 0/2 datasets
+2025-07-05 01:38:58,101 - ERROR - Data collection failed
+2025-07-05 01:38:58,101 - INFO - Database connection closed
+2025-07-05 01:39:07,861 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 01:39:07,881 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 01:39:07,882 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 01:39:07,882 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 01:39:07,882 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 01:39:07,885 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 01:39:07,886 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY0NzE0NywiZXhwIjoxNzUyODU2NzQ3fQ.ZR0C23wDRQlB8ieYVB-vcwFzr8celonBGq3hClv7pa4","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 01:39:07,886 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 01:39:07,886 - INFO - EIKON API initialized successfully
+2025-07-05 01:39:07,921 - INFO - Database connection established
+2025-07-05 01:39:07,923 - INFO - Database schema created successfully
+2025-07-05 01:39:07,923 - INFO - Collecting data from 2022-07-06 to 2025-07-05
+2025-07-05 01:39:07,923 - INFO - Processing 3M_OUTRIGHT (CMCU3=LME)
+2025-07-05 01:39:07,923 - INFO - Fetching data for CMCU3=LME from 2022-07-06 to 2025-07-05
+2025-07-05 01:39:07,926 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:39:08,370 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:39:08,371 - WARNING - Error with CMCU3=LME: Invalid RIC
+2025-07-05 01:39:08,374 - ERROR - CMCU3=LME: Invalid RIC | 
+2025-07-05 01:39:08,374 - ERROR - Error fetching historical data for CMCU3=LME: Error code -1 | CMCU3=LME: Invalid RIC | 
+2025-07-05 01:39:08,374 - ERROR - No data available for 3M_OUTRIGHT
+2025-07-05 01:39:08,374 - INFO - Processing CASH_3M_SPREAD (CMCU0-CMCU3=LME)
+2025-07-05 01:39:08,374 - INFO - Fetching data for CMCU0-CMCU3=LME from 2022-07-06 to 2025-07-05
+2025-07-05 01:39:08,378 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:39:08,868 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:39:08,871 - WARNING - Error with CMCU0-CMCU3=LME: Invalid RIC
+2025-07-05 01:39:08,872 - ERROR - CMCU0-CMCU3=LME: Invalid RIC | 
+2025-07-05 01:39:08,872 - ERROR - Error fetching historical data for CMCU0-CMCU3=LME: Error code -1 | CMCU0-CMCU3=LME: Invalid RIC | 
+2025-07-05 01:39:08,872 - ERROR - No data available for CASH_3M_SPREAD
+2025-07-05 01:39:08,872 - INFO - Data collection completed. Successfully processed 0/2 datasets
+2025-07-05 01:39:08,872 - ERROR - Data collection failed
+2025-07-05 01:39:08,872 - INFO - Database connection closed
+2025-07-05 01:44:08,501 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 01:44:08,519 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 01:44:08,519 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 01:44:08,519 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 01:44:08,519 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 01:44:08,522 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 01:44:08,522 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY0NzQ0OCwiZXhwIjoxNzUyODU3MDQ4fQ.tM5ux4bFU4z6C3TImYmpubIqbsQtCKWqsZWeYsgV7cM","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 01:44:08,522 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 01:44:08,522 - INFO - EIKON API initialized successfully
+2025-07-05 01:44:08,544 - INFO - Database connection established
+2025-07-05 01:44:08,545 - INFO - Database schema created successfully
+2025-07-05 01:44:08,546 - INFO - Collecting data from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:08,546 - INFO - Processing 3M_OUTRIGHT (CMCU3)
+2025-07-05 01:44:08,546 - INFO - Fetching data for CMCU3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:08,547 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:44:09,139 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:44:09,154 - ERROR - Error fetching historical data for CMCU3: too many values to unpack (expected 2)
+2025-07-05 01:44:09,154 - ERROR - No data available for 3M_OUTRIGHT
+2025-07-05 01:44:09,154 - INFO - Processing CASH_3M_SPREAD (CMCU0-3)
+2025-07-05 01:44:09,154 - INFO - Fetching data for CMCU0-3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:09,157 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:44:09,900 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:44:09,910 - ERROR - Error fetching historical data for CMCU0-3: too many values to unpack (expected 2)
+2025-07-05 01:44:09,910 - ERROR - No data available for CASH_3M_SPREAD
+2025-07-05 01:44:09,910 - INFO - Data collection completed. Successfully processed 0/2 datasets
+2025-07-05 01:44:09,910 - ERROR - Data collection failed
+2025-07-05 01:44:09,911 - INFO - Database connection closed
+2025-07-05 01:44:22,789 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 01:44:22,797 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 01:44:22,797 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 01:44:22,797 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 01:44:22,797 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 01:44:22,800 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 01:44:22,800 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY0NzQ2MiwiZXhwIjoxNzUyODU3MDYyfQ.G4mD4XNivZfbUlcNPC4l0ZIc3qKhszaYau8y9Ugj_FU","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 01:44:22,800 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 01:44:22,800 - INFO - EIKON API initialized successfully
+2025-07-05 01:44:22,818 - INFO - Database connection established
+2025-07-05 01:44:22,819 - INFO - Database schema created successfully
+2025-07-05 01:44:22,819 - INFO - Collecting data from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:22,820 - INFO - Processing 3M_OUTRIGHT (CMCU3)
+2025-07-05 01:44:22,820 - INFO - Fetching data for CMCU3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:22,822 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:44:23,400 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:44:23,415 - INFO - Successfully fetched 758 records for CMCU3
+2025-07-05 01:44:23,561 - INFO - Successfully saved 758 records for 3M_OUTRIGHT
+2025-07-05 01:44:23,561 - INFO - Successfully processed 3M_OUTRIGHT
+2025-07-05 01:44:23,561 - INFO - Processing CASH_3M_SPREAD (CMCU0-3)
+2025-07-05 01:44:23,561 - INFO - Fetching data for CMCU0-3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:44:23,563 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:44:24,042 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:44:24,056 - INFO - Successfully fetched 758 records for CMCU0-3
+2025-07-05 01:44:24,167 - INFO - Successfully saved 758 records for CASH_3M_SPREAD
+2025-07-05 01:44:24,167 - INFO - Successfully processed CASH_3M_SPREAD
+2025-07-05 01:44:24,167 - INFO - Data collection completed. Successfully processed 2/2 datasets
+2025-07-05 01:44:24,167 - INFO - Data collection completed successfully
+2025-07-05 01:44:24,175 - INFO - Data Summary:
+2025-07-05 01:44:24,175 - INFO -   3M_OUTRIGHT: 758 records (2022-07-06 to 2025-07-04)
+2025-07-05 01:44:24,175 - INFO -   CASH_3M_SPREAD: 758 records (2022-07-06 to 2025-07-04)
+2025-07-05 01:44:24,175 - INFO - Database connection closed
+2025-07-05 01:49:18,385 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 01:49:18,393 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 01:49:18,393 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 01:49:18,393 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 01:49:18,393 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 01:49:18,396 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 01:49:18,396 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY0Nzc1OCwiZXhwIjoxNzUyODU3MzU4fQ.t6Wf5OQebCttCuQTijhXFMsFpyL3BoCoQetuUu1GJL0","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 01:49:18,396 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 01:49:18,396 - INFO - EIKON API initialized successfully
+2025-07-05 01:49:18,411 - INFO - Database connection established
+2025-07-05 01:49:18,412 - INFO - Database schema created successfully
+2025-07-05 01:49:18,412 - INFO - Collecting data from 2022-07-06 to 2025-07-05
+2025-07-05 01:49:18,412 - INFO - Processing 3M_OUTRIGHT (CMCU3)
+2025-07-05 01:49:18,412 - INFO - Fetching data for CMCU3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:49:18,414 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:49:19,037 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:49:19,062 - INFO - Successfully fetched 758 records for CMCU3
+2025-07-05 01:49:19,201 - INFO - Successfully saved 758 records for 3M_OUTRIGHT
+2025-07-05 01:49:19,201 - INFO - Successfully processed 3M_OUTRIGHT
+2025-07-05 01:49:19,201 - INFO - Processing CASH_3M_SPREAD (CMCU0-3)
+2025-07-05 01:49:19,201 - INFO - Fetching data for CMCU0-3 from 2022-07-06 to 2025-07-05
+2025-07-05 01:49:19,203 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 01:49:19,715 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 01:49:19,722 - INFO - Successfully fetched 758 records for CMCU0-3
+2025-07-05 01:49:19,818 - INFO - Successfully saved 758 records for CASH_3M_SPREAD
+2025-07-05 01:49:19,819 - INFO - Successfully processed CASH_3M_SPREAD
+2025-07-05 01:49:19,819 - INFO - Data collection completed. Successfully processed 2/2 datasets
+2025-07-05 01:49:19,819 - INFO - Data collection completed successfully
+2025-07-05 01:49:19,819 - INFO - Data Summary:
+2025-07-05 01:49:19,819 - INFO -   3M_OUTRIGHT: 758 records (2022-07-06 to 2025-07-04)
+2025-07-05 01:49:19,820 - INFO -   CASH_3M_SPREAD: 758 records (2022-07-06 to 2025-07-04)
+2025-07-05 01:49:19,820 - INFO - Database connection closed

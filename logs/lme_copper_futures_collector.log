@@ -1,0 +1,686 @@
+2025-07-05 11:09:58,693 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 11:09:58,712 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 11:09:58,713 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 11:09:58,713 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 11:09:58,713 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 11:09:58,715 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 11:09:58,715 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY4MTM5OCwiZXhwIjoxNzUyODkwOTk4fQ.oTeVX6pgEiV7K6CJVEfW6EdWIkAVQbcqHZF38W21M18","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 11:09:58,715 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 11:09:58,715 - INFO - EIKON API initialized successfully
+2025-07-05 11:09:58,860 - INFO - Database connection established
+2025-07-05 11:09:59,397 - INFO - Futures table created successfully
+2025-07-05 11:09:59,397 - INFO - Collecting futures data from 2024-07-05 to 2025-07-05
+2025-07-05 11:09:59,397 - INFO - Processing 36 futures contracts
+2025-07-05 11:09:59,397 - INFO - Processing Month_01 (CMCUc1) - Month 1
+2025-07-05 11:09:59,397 - INFO - Fetching data for CMCUc1 (Month 1) from 2024-07-05 to 2025-07-05
+2025-07-05 11:09:59,400 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:00,334 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:00,346 - INFO - Successfully fetched 241 records for CMCUc1
+2025-07-05 11:10:00,405 - INFO - Successfully saved 241 records
+2025-07-05 11:10:00,405 - INFO - Successfully processed Month_01 - 241 records
+2025-07-05 11:10:00,405 - INFO - Processing Month_02 (CMCUc2) - Month 2
+2025-07-05 11:10:00,405 - INFO - Fetching data for CMCUc2 (Month 2) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:00,410 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:01,256 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:01,259 - INFO - Successfully fetched 253 records for CMCUc2
+2025-07-05 11:10:01,313 - INFO - Successfully saved 253 records
+2025-07-05 11:10:01,313 - INFO - Successfully processed Month_02 - 253 records
+2025-07-05 11:10:01,313 - INFO - Processing Month_03 (CMCUc3) - Month 3
+2025-07-05 11:10:01,313 - INFO - Fetching data for CMCUc3 (Month 3) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:01,315 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:02,143 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:02,150 - INFO - Successfully fetched 253 records for CMCUc3
+2025-07-05 11:10:02,254 - INFO - Successfully saved 253 records
+2025-07-05 11:10:02,254 - INFO - Successfully processed Month_03 - 253 records
+2025-07-05 11:10:02,254 - INFO - Processing Month_04 (CMCUc4) - Month 4
+2025-07-05 11:10:02,254 - INFO - Fetching data for CMCUc4 (Month 4) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:02,257 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:03,034 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:03,044 - INFO - Successfully fetched 253 records for CMCUc4
+2025-07-05 11:10:03,153 - INFO - Successfully saved 253 records
+2025-07-05 11:10:03,153 - INFO - Successfully processed Month_04 - 253 records
+2025-07-05 11:10:03,153 - INFO - Processing Month_05 (CMCUc5) - Month 5
+2025-07-05 11:10:03,153 - INFO - Fetching data for CMCUc5 (Month 5) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:03,158 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:03,751 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:03,753 - INFO - Successfully fetched 253 records for CMCUc5
+2025-07-05 11:10:03,797 - INFO - Successfully saved 253 records
+2025-07-05 11:10:03,797 - INFO - Successfully processed Month_05 - 253 records
+2025-07-05 11:10:03,797 - INFO - Processing Month_06 (CMCUc6) - Month 6
+2025-07-05 11:10:03,797 - INFO - Fetching data for CMCUc6 (Month 6) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:03,800 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:05,405 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:05,413 - INFO - Successfully fetched 253 records for CMCUc6
+2025-07-05 11:10:05,519 - INFO - Successfully saved 253 records
+2025-07-05 11:10:05,519 - INFO - Successfully processed Month_06 - 253 records
+2025-07-05 11:10:05,519 - INFO - Processing Month_07 (CMCUc7) - Month 7
+2025-07-05 11:10:05,519 - INFO - Fetching data for CMCUc7 (Month 7) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:05,524 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:06,339 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:06,348 - INFO - Successfully fetched 253 records for CMCUc7
+2025-07-05 11:10:06,451 - INFO - Successfully saved 253 records
+2025-07-05 11:10:06,451 - INFO - Successfully processed Month_07 - 253 records
+2025-07-05 11:10:06,451 - INFO - Processing Month_08 (CMCUc8) - Month 8
+2025-07-05 11:10:06,451 - INFO - Fetching data for CMCUc8 (Month 8) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:06,456 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:06,972 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:06,979 - INFO - Successfully fetched 253 records for CMCUc8
+2025-07-05 11:10:07,048 - INFO - Successfully saved 253 records
+2025-07-05 11:10:07,049 - INFO - Successfully processed Month_08 - 253 records
+2025-07-05 11:10:07,049 - INFO - Processing Month_09 (CMCUc9) - Month 9
+2025-07-05 11:10:07,049 - INFO - Fetching data for CMCUc9 (Month 9) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:07,053 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:07,674 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:07,680 - INFO - Successfully fetched 253 records for CMCUc9
+2025-07-05 11:10:07,735 - INFO - Successfully saved 253 records
+2025-07-05 11:10:07,735 - INFO - Successfully processed Month_09 - 253 records
+2025-07-05 11:10:07,735 - INFO - Processing Month_10 (CMCUc10) - Month 10
+2025-07-05 11:10:07,735 - INFO - Fetching data for CMCUc10 (Month 10) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:07,740 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:08,748 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:08,750 - INFO - Successfully fetched 253 records for CMCUc10
+2025-07-05 11:10:08,793 - INFO - Successfully saved 253 records
+2025-07-05 11:10:08,793 - INFO - Successfully processed Month_10 - 253 records
+2025-07-05 11:10:08,793 - INFO - Processing Month_11 (CMCUc11) - Month 11
+2025-07-05 11:10:08,793 - INFO - Fetching data for CMCUc11 (Month 11) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:08,796 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:10,564 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:10,573 - INFO - Successfully fetched 253 records for CMCUc11
+2025-07-05 11:10:10,667 - INFO - Successfully saved 253 records
+2025-07-05 11:10:10,668 - INFO - Successfully processed Month_11 - 253 records
+2025-07-05 11:10:10,668 - INFO - Processing Month_12 (CMCUc12) - Month 12
+2025-07-05 11:10:10,668 - INFO - Fetching data for CMCUc12 (Month 12) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:10,672 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:11,360 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:11,367 - INFO - Successfully fetched 253 records for CMCUc12
+2025-07-05 11:10:11,470 - INFO - Successfully saved 253 records
+2025-07-05 11:10:11,471 - INFO - Successfully processed Month_12 - 253 records
+2025-07-05 11:10:11,471 - INFO - Processing Month_13 (CMCUc13) - Month 13
+2025-07-05 11:10:11,471 - INFO - Fetching data for CMCUc13 (Month 13) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:11,476 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:12,914 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:12,922 - INFO - Successfully fetched 253 records for CMCUc13
+2025-07-05 11:10:12,986 - INFO - Successfully saved 253 records
+2025-07-05 11:10:12,986 - INFO - Successfully processed Month_13 - 253 records
+2025-07-05 11:10:12,986 - INFO - Processing Month_14 (CMCUc14) - Month 14
+2025-07-05 11:10:12,987 - INFO - Fetching data for CMCUc14 (Month 14) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:12,989 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:14,852 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:14,858 - INFO - Successfully fetched 253 records for CMCUc14
+2025-07-05 11:10:14,928 - INFO - Successfully saved 253 records
+2025-07-05 11:10:14,928 - INFO - Successfully processed Month_14 - 253 records
+2025-07-05 11:10:14,928 - INFO - Processing Month_15 (CMCUc15) - Month 15
+2025-07-05 11:10:14,928 - INFO - Fetching data for CMCUc15 (Month 15) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:14,931 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:16,637 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:16,646 - INFO - Successfully fetched 253 records for CMCUc15
+2025-07-05 11:10:16,747 - INFO - Successfully saved 253 records
+2025-07-05 11:10:16,747 - INFO - Successfully processed Month_15 - 253 records
+2025-07-05 11:10:16,748 - INFO - Processing Month_16 (CMCUc16) - Month 16
+2025-07-05 11:10:16,748 - INFO - Fetching data for CMCUc16 (Month 16) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:16,752 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:18,746 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:18,749 - INFO - Successfully fetched 253 records for CMCUc16
+2025-07-05 11:10:18,796 - INFO - Successfully saved 253 records
+2025-07-05 11:10:18,796 - INFO - Successfully processed Month_16 - 253 records
+2025-07-05 11:10:18,796 - INFO - Processing Month_17 (CMCUc17) - Month 17
+2025-07-05 11:10:18,796 - INFO - Fetching data for CMCUc17 (Month 17) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:18,799 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:20,577 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:20,585 - INFO - Successfully fetched 253 records for CMCUc17
+2025-07-05 11:10:20,678 - INFO - Successfully saved 253 records
+2025-07-05 11:10:20,678 - INFO - Successfully processed Month_17 - 253 records
+2025-07-05 11:10:20,678 - INFO - Processing Month_18 (CMCUc18) - Month 18
+2025-07-05 11:10:20,678 - INFO - Fetching data for CMCUc18 (Month 18) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:20,683 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:22,874 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:22,881 - INFO - Successfully fetched 253 records for CMCUc18
+2025-07-05 11:10:22,941 - INFO - Successfully saved 253 records
+2025-07-05 11:10:22,941 - INFO - Successfully processed Month_18 - 253 records
+2025-07-05 11:10:22,941 - INFO - Processing Month_19 (CMCUc19) - Month 19
+2025-07-05 11:10:22,941 - INFO - Fetching data for CMCUc19 (Month 19) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:22,943 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:24,445 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:24,450 - INFO - Successfully fetched 253 records for CMCUc19
+2025-07-05 11:10:24,505 - INFO - Successfully saved 253 records
+2025-07-05 11:10:24,505 - INFO - Successfully processed Month_19 - 253 records
+2025-07-05 11:10:24,505 - INFO - Processing Month_20 (CMCUc20) - Month 20
+2025-07-05 11:10:24,505 - INFO - Fetching data for CMCUc20 (Month 20) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:24,507 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:26,042 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:26,050 - INFO - Successfully fetched 253 records for CMCUc20
+2025-07-05 11:10:26,137 - INFO - Successfully saved 253 records
+2025-07-05 11:10:26,137 - INFO - Successfully processed Month_20 - 253 records
+2025-07-05 11:10:26,137 - INFO - Processing Month_21 (CMCUc21) - Month 21
+2025-07-05 11:10:26,137 - INFO - Fetching data for CMCUc21 (Month 21) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:26,142 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:27,783 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:27,791 - INFO - Successfully fetched 253 records for CMCUc21
+2025-07-05 11:10:27,862 - INFO - Successfully saved 253 records
+2025-07-05 11:10:27,862 - INFO - Successfully processed Month_21 - 253 records
+2025-07-05 11:10:27,862 - INFO - Processing Month_22 (CMCUc22) - Month 22
+2025-07-05 11:10:27,862 - INFO - Fetching data for CMCUc22 (Month 22) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:27,864 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:29,285 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:29,292 - INFO - Successfully fetched 253 records for CMCUc22
+2025-07-05 11:10:29,394 - INFO - Successfully saved 253 records
+2025-07-05 11:10:29,394 - INFO - Successfully processed Month_22 - 253 records
+2025-07-05 11:10:29,394 - INFO - Processing Month_23 (CMCUc23) - Month 23
+2025-07-05 11:10:29,394 - INFO - Fetching data for CMCUc23 (Month 23) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:29,397 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:30,897 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:30,905 - INFO - Successfully fetched 253 records for CMCUc23
+2025-07-05 11:10:30,993 - INFO - Successfully saved 253 records
+2025-07-05 11:10:30,993 - INFO - Successfully processed Month_23 - 253 records
+2025-07-05 11:10:30,993 - INFO - Processing Month_24 (CMCUc24) - Month 24
+2025-07-05 11:10:30,993 - INFO - Fetching data for CMCUc24 (Month 24) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:30,997 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:31,503 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:31,509 - INFO - Successfully fetched 253 records for CMCUc24
+2025-07-05 11:10:31,579 - INFO - Successfully saved 253 records
+2025-07-05 11:10:31,579 - INFO - Successfully processed Month_24 - 253 records
+2025-07-05 11:10:31,579 - INFO - Processing Month_25 (CMCUc25) - Month 25
+2025-07-05 11:10:31,579 - INFO - Fetching data for CMCUc25 (Month 25) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:31,582 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:33,363 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:33,371 - INFO - Successfully fetched 253 records for CMCUc25
+2025-07-05 11:10:33,443 - INFO - Successfully saved 253 records
+2025-07-05 11:10:33,443 - INFO - Successfully processed Month_25 - 253 records
+2025-07-05 11:10:33,443 - INFO - Processing Month_26 (CMCUc26) - Month 26
+2025-07-05 11:10:33,443 - INFO - Fetching data for CMCUc26 (Month 26) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:33,448 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:34,930 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:34,940 - INFO - Successfully fetched 253 records for CMCUc26
+2025-07-05 11:10:35,019 - INFO - Successfully saved 253 records
+2025-07-05 11:10:35,020 - INFO - Successfully processed Month_26 - 253 records
+2025-07-05 11:10:35,020 - INFO - Processing Month_27 (CMCUc27) - Month 27
+2025-07-05 11:10:35,020 - INFO - Fetching data for CMCUc27 (Month 27) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:35,024 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:36,511 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:36,520 - INFO - Successfully fetched 253 records for CMCUc27
+2025-07-05 11:10:36,619 - INFO - Successfully saved 253 records
+2025-07-05 11:10:36,620 - INFO - Successfully processed Month_27 - 253 records
+2025-07-05 11:10:36,620 - INFO - Processing Month_28 (CMCUc28) - Month 28
+2025-07-05 11:10:36,620 - INFO - Fetching data for CMCUc28 (Month 28) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:36,623 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:38,324 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:38,328 - INFO - Successfully fetched 253 records for CMCUc28
+2025-07-05 11:10:38,381 - INFO - Successfully saved 253 records
+2025-07-05 11:10:38,381 - INFO - Successfully processed Month_28 - 253 records
+2025-07-05 11:10:38,381 - INFO - Processing Month_29 (CMCUc29) - Month 29
+2025-07-05 11:10:38,381 - INFO - Fetching data for CMCUc29 (Month 29) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:38,386 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:40,377 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:40,385 - INFO - Successfully fetched 253 records for CMCUc29
+2025-07-05 11:10:40,453 - INFO - Successfully saved 253 records
+2025-07-05 11:10:40,453 - INFO - Successfully processed Month_29 - 253 records
+2025-07-05 11:10:40,453 - INFO - Processing Month_30 (CMCUc30) - Month 30
+2025-07-05 11:10:40,453 - INFO - Fetching data for CMCUc30 (Month 30) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:40,457 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:42,162 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:42,170 - INFO - Successfully fetched 253 records for CMCUc30
+2025-07-05 11:10:42,263 - INFO - Successfully saved 253 records
+2025-07-05 11:10:42,263 - INFO - Successfully processed Month_30 - 253 records
+2025-07-05 11:10:42,264 - INFO - Processing Month_31 (CMCUc31) - Month 31
+2025-07-05 11:10:42,264 - INFO - Fetching data for CMCUc31 (Month 31) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:42,268 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:43,846 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:43,850 - INFO - Successfully fetched 253 records for CMCUc31
+2025-07-05 11:10:43,898 - INFO - Successfully saved 253 records
+2025-07-05 11:10:43,898 - INFO - Successfully processed Month_31 - 253 records
+2025-07-05 11:10:43,898 - INFO - Processing Month_32 (CMCUc32) - Month 32
+2025-07-05 11:10:43,898 - INFO - Fetching data for CMCUc32 (Month 32) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:43,900 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:45,563 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:45,569 - INFO - Successfully fetched 253 records for CMCUc32
+2025-07-05 11:10:45,631 - INFO - Successfully saved 253 records
+2025-07-05 11:10:45,631 - INFO - Successfully processed Month_32 - 253 records
+2025-07-05 11:10:45,631 - INFO - Processing Month_33 (CMCUc33) - Month 33
+2025-07-05 11:10:45,631 - INFO - Fetching data for CMCUc33 (Month 33) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:45,636 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:47,303 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:47,312 - INFO - Successfully fetched 253 records for CMCUc33
+2025-07-05 11:10:47,401 - INFO - Successfully saved 253 records
+2025-07-05 11:10:47,401 - INFO - Successfully processed Month_33 - 253 records
+2025-07-05 11:10:47,401 - INFO - Processing Month_34 (CMCUc34) - Month 34
+2025-07-05 11:10:47,401 - INFO - Fetching data for CMCUc34 (Month 34) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:47,406 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:48,890 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:48,896 - INFO - Successfully fetched 253 records for CMCUc34
+2025-07-05 11:10:48,946 - INFO - Successfully saved 253 records
+2025-07-05 11:10:48,946 - INFO - Successfully processed Month_34 - 253 records
+2025-07-05 11:10:48,946 - INFO - Processing Month_35 (CMCUc35) - Month 35
+2025-07-05 11:10:48,946 - INFO - Fetching data for CMCUc35 (Month 35) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:48,951 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:50,503 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:50,510 - INFO - Successfully fetched 253 records for CMCUc35
+2025-07-05 11:10:50,590 - INFO - Successfully saved 253 records
+2025-07-05 11:10:50,590 - INFO - Successfully processed Month_35 - 253 records
+2025-07-05 11:10:50,590 - INFO - Processing Month_36 (CMCUc36) - Month 36
+2025-07-05 11:10:50,590 - INFO - Fetching data for CMCUc36 (Month 36) from 2024-07-05 to 2025-07-05
+2025-07-05 11:10:50,595 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:10:52,236 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:10:52,244 - INFO - Successfully fetched 253 records for CMCUc36
+2025-07-05 11:10:52,305 - INFO - Successfully saved 253 records
+2025-07-05 11:10:52,305 - INFO - Successfully processed Month_36 - 253 records
+2025-07-05 11:10:52,306 - INFO - Data collection completed. Successfully processed 36/36 contracts
+2025-07-05 11:10:52,306 - INFO - Total records collected: 9096
+2025-07-05 11:10:52,306 - INFO - Futures data collection completed successfully
+2025-07-05 11:10:52,318 - INFO - Futures Data Summary:
+2025-07-05 11:10:52,318 - INFO -   Month_01: 241 records ($9334.92 avg, Vol: 69400)
+2025-07-05 11:10:52,318 - INFO -   Month_02: 253 records ($9360.26 avg, Vol: 147060)
+2025-07-05 11:10:52,318 - INFO -   Month_03: 253 records ($9381.91 avg, Vol: 132571)
+2025-07-05 11:10:52,318 - INFO -   Month_04: 253 records ($9401.05 avg, Vol: 96050)
+2025-07-05 11:10:52,318 - INFO -   Month_05: 253 records ($9417.91 avg, Vol: 43238)
+2025-07-05 11:10:52,318 - INFO -   Month_06: 253 records ($9433.16 avg, Vol: 17169)
+2025-07-05 11:10:52,318 - INFO -   Month_07: 253 records ($9448.18 avg, Vol: 9840)
+2025-07-05 11:10:52,318 - INFO -   Month_08: 253 records ($9461.94 avg, Vol: 7076)
+2025-07-05 11:10:52,318 - INFO -   Month_09: 253 records ($9475.09 avg, Vol: 5239)
+2025-07-05 11:10:52,318 - INFO -   Month_10: 253 records ($9487.02 avg, Vol: 5793)
+2025-07-05 11:10:52,318 - INFO -   Month_11: 253 records ($9497.41 avg, Vol: 4092)
+2025-07-05 11:10:52,318 - INFO -   Month_12: 253 records ($9507.14 avg, Vol: 5122)
+2025-07-05 11:10:52,318 - INFO -   Month_13: 253 records ($9516.41 avg, Vol: 5324)
+2025-07-05 11:10:52,318 - INFO -   Month_14: 253 records ($9525.17 avg, Vol: 4333)
+2025-07-05 11:10:52,318 - INFO -   Month_15: 253 records ($9534.69 avg, Vol: 1336)
+2025-07-05 11:10:52,318 - INFO -   Month_16: 253 records ($9543.68 avg, Vol: 295)
+2025-07-05 11:10:52,318 - INFO -   Month_17: 253 records ($9552.01 avg, Vol: 1858)
+2025-07-05 11:10:52,318 - INFO -   Month_18: 253 records ($9560.01 avg, Vol: 315)
+2025-07-05 11:10:52,318 - INFO -   Month_19: 253 records ($9567.30 avg, Vol: 279)
+2025-07-05 11:10:52,318 - INFO -   Month_20: 253 records ($9574.34 avg, Vol: 1229)
+2025-07-05 11:10:52,319 - INFO -   Month_21: 253 records ($9580.96 avg, Vol: 132)
+2025-07-05 11:10:52,319 - INFO -   Month_22: 253 records ($9588.12 avg, Vol: 753)
+2025-07-05 11:10:52,319 - INFO -   Month_23: 253 records ($9595.20 avg, Vol: 750)
+2025-07-05 11:10:52,319 - INFO -   Month_24: 253 records ($9602.34 avg, Vol: 269)
+2025-07-05 11:10:52,319 - INFO -   Month_25: 253 records ($9609.09 avg, Vol: 55)
+2025-07-05 11:10:52,319 - INFO -   Month_26: 253 records ($9615.01 avg, Vol: 543)
+2025-07-05 11:10:52,319 - INFO -   Month_27: 253 records ($9620.32 avg, Vol: 182)
+2025-07-05 11:10:52,319 - INFO -   Month_28: 253 records ($9624.79 avg, Vol: 30)
+2025-07-05 11:10:52,319 - INFO -   Month_29: 253 records ($9628.79 avg, Vol: 125)
+2025-07-05 11:10:52,319 - INFO -   Month_30: 253 records ($9631.96 avg, Vol: 121)
+2025-07-05 11:10:52,319 - INFO -   Month_31: 253 records ($9634.75 avg, Vol: 29)
+2025-07-05 11:10:52,319 - INFO -   Month_32: 253 records ($9637.42 avg, Vol: 33)
+2025-07-05 11:10:52,319 - INFO -   Month_33: 253 records ($9639.84 avg, Vol: 22)
+2025-07-05 11:10:52,319 - INFO -   Month_34: 253 records ($9642.45 avg, Vol: 47)
+2025-07-05 11:10:52,319 - INFO -   Month_35: 253 records ($9645.00 avg, Vol: 47)
+2025-07-05 11:10:52,319 - INFO -   Month_36: 253 records ($9647.64 avg, Vol: 34)
+2025-07-05 11:10:52,319 - INFO - Latest Futures Curve:
+2025-07-05 11:10:52,319 - INFO -   Month  1: $ 9923.29 (Vol:     76)
+2025-07-05 11:10:52,319 - INFO -   Month  2: $ 9887.30 (Vol:    465)
+2025-07-05 11:10:52,319 - INFO -   Month  3: $ 9873.62 (Vol:    270)
+2025-07-05 11:10:52,319 - INFO -   Month  4: $ 9861.73 (Vol:      9)
+2025-07-05 11:10:52,319 - INFO -   Month  5: $ 9855.23 (Vol:      5)
+2025-07-05 11:10:52,319 - INFO -   Month  6: $ 9851.23 (Vol:      7)
+2025-07-05 11:10:52,319 - INFO -   Month  7: $ 9847.23 (Vol:    121)
+2025-07-05 11:10:52,319 - INFO -   Month  8: $ 9845.23 (Vol:     81)
+2025-07-05 11:10:52,319 - INFO -   Month  9: $ 9843.23 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 10: $ 9845.23 (Vol:     87)
+2025-07-05 11:10:52,319 - INFO -   Month 11: $ 9844.23 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 12: $ 9841.23 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 13: $ 9841.73 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 14: $ 9845.73 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 15: $ 9852.23 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 16: $ 9858.73 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 17: $ 9865.23 (Vol:      1)
+2025-07-05 11:10:52,319 - INFO -   Month 18: $ 9871.23 (Vol:     20)
+2025-07-05 11:10:52,319 - INFO -   Month 19: $ 9873.23 (Vol:      0)
+2025-07-05 11:10:52,319 - INFO -   Month 20: $ 9875.23 (Vol:      0)
+2025-07-05 11:10:52,319 - INFO -   Month 21: $ 9876.98 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 22: $ 9878.48 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 23: $ 9879.98 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 24: $ 9881.23 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 25: $ 9882.73 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 26: $ 9884.23 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 27: $ 9885.98 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 28: $ 9887.73 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 29: $ 9889.48 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 30: $ 9891.23 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 31: $ 9892.98 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 32: $ 9894.73 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 33: $ 9896.48 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 34: $ 9898.23 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 35: $ 9899.98 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO -   Month 36: $ 9901.73 (Vol:      0)
+2025-07-05 11:10:52,320 - INFO - Database connection closed
+2025-07-05 11:21:29,347 - INFO - Send GET request to http://127.0.0.1:9000/api/status to detect API Proxy...
+2025-07-05 11:21:29,373 - INFO - HTTP Request: GET http://127.0.0.1:9000/api/status "HTTP/1.1 200 OK"
+2025-07-05 11:21:29,373 - INFO - Checking proxy url http://127.0.0.1:9000/api/status response : 200 - {"statusCode":"ST_PROXY_READY","version":"3.11.0"}
+2025-07-05 11:21:29,373 - INFO - Port 9000 was retrieved from .portInUse file
+2025-07-05 11:21:29,373 - INFO - Try to handshake on url http://127.0.0.1:9000/api/handshake...
+2025-07-05 11:21:29,376 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/handshake "HTTP/1.1 200 OK"
+2025-07-05 11:21:29,376 - INFO - Response : 200 - {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcGlWZXJzaW9uIjoiMSIsIkFwcEtleSI6IjE0NzU5NDAxOThiMDRmZGFiOTI2NWI3ODkyNTQ2Y2MyZWFkOWVkYTYiLCJBcHBTY29wZSI6InRyYXBpIiwiTGlicmFyeU5hbWUiOiJSRFAgUHl0aG9uIExpYnJhcnkiLCJMaWJyYXJ5VmVyc2lvbiI6IjEuMS4xNiIsImlhdCI6MTc1MTY4MjA4OSwiZXhwIjoxNzUyODkxNjg5fQ.Uqeep_l1N0u7m2clgvUcy20n_qZYx3l4mijiXU-YwfE","expires_in":1209600,"token_type":"bearer"}
+2025-07-05 11:21:29,376 - INFO - Application ID: 1475940198b04fdab9265b7892546cc2ead9eda6
+2025-07-05 11:21:29,376 - INFO - EIKON API initialized successfully
+2025-07-05 11:21:29,424 - INFO - Database connection established
+2025-07-05 11:21:29,453 - INFO - Futures table created successfully
+2025-07-05 11:21:29,453 - INFO - Collecting futures data from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:29,453 - INFO - Processing 36 futures contracts
+2025-07-05 11:21:29,453 - INFO - Processing Month_01 (CMCUc1) - Month 1
+2025-07-05 11:21:29,453 - INFO - Fetching data for CMCUc1 (Month 1) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:29,457 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:30,184 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:30,207 - INFO - Successfully fetched 1202 records for CMCUc1
+2025-07-05 11:21:30,379 - INFO - Successfully saved 1202 records
+2025-07-05 11:21:30,379 - INFO - Successfully processed Month_01 - 1202 records
+2025-07-05 11:21:30,379 - INFO - Processing Month_02 (CMCUc2) - Month 2
+2025-07-05 11:21:30,379 - INFO - Fetching data for CMCUc2 (Month 2) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:30,383 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:31,321 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:31,339 - INFO - Successfully fetched 1263 records for CMCUc2
+2025-07-05 11:21:31,876 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:31,876 - INFO - Successfully processed Month_02 - 1263 records
+2025-07-05 11:21:31,876 - INFO - Processing Month_03 (CMCUc3) - Month 3
+2025-07-05 11:21:31,876 - INFO - Fetching data for CMCUc3 (Month 3) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:31,880 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:32,626 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:32,647 - INFO - Successfully fetched 1263 records for CMCUc3
+2025-07-05 11:21:32,811 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:32,811 - INFO - Successfully processed Month_03 - 1263 records
+2025-07-05 11:21:32,811 - INFO - Processing Month_04 (CMCUc4) - Month 4
+2025-07-05 11:21:32,811 - INFO - Fetching data for CMCUc4 (Month 4) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:32,813 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:33,567 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:33,586 - INFO - Successfully fetched 1263 records for CMCUc4
+2025-07-05 11:21:33,971 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:33,972 - INFO - Successfully processed Month_04 - 1263 records
+2025-07-05 11:21:33,972 - INFO - Processing Month_05 (CMCUc5) - Month 5
+2025-07-05 11:21:33,972 - INFO - Fetching data for CMCUc5 (Month 5) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:33,974 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:36,287 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:36,305 - INFO - Successfully fetched 1263 records for CMCUc5
+2025-07-05 11:21:36,489 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:36,489 - INFO - Successfully processed Month_05 - 1263 records
+2025-07-05 11:21:36,489 - INFO - Processing Month_06 (CMCUc6) - Month 6
+2025-07-05 11:21:36,489 - INFO - Fetching data for CMCUc6 (Month 6) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:36,492 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:37,223 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:37,231 - INFO - Successfully fetched 1263 records for CMCUc6
+2025-07-05 11:21:37,387 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:37,387 - INFO - Successfully processed Month_06 - 1263 records
+2025-07-05 11:21:37,387 - INFO - Processing Month_07 (CMCUc7) - Month 7
+2025-07-05 11:21:37,387 - INFO - Fetching data for CMCUc7 (Month 7) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:37,390 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:37,958 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:37,967 - INFO - Successfully fetched 1263 records for CMCUc7
+2025-07-05 11:21:38,119 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:38,119 - INFO - Successfully processed Month_07 - 1263 records
+2025-07-05 11:21:38,119 - INFO - Processing Month_08 (CMCUc8) - Month 8
+2025-07-05 11:21:38,119 - INFO - Fetching data for CMCUc8 (Month 8) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:38,122 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:38,837 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:38,854 - INFO - Successfully fetched 1263 records for CMCUc8
+2025-07-05 11:21:39,050 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:39,050 - INFO - Successfully processed Month_08 - 1263 records
+2025-07-05 11:21:39,050 - INFO - Processing Month_09 (CMCUc9) - Month 9
+2025-07-05 11:21:39,050 - INFO - Fetching data for CMCUc9 (Month 9) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:39,053 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:39,716 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:39,731 - INFO - Successfully fetched 1263 records for CMCUc9
+2025-07-05 11:21:39,893 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:39,893 - INFO - Successfully processed Month_09 - 1263 records
+2025-07-05 11:21:39,893 - INFO - Processing Month_10 (CMCUc10) - Month 10
+2025-07-05 11:21:39,893 - INFO - Fetching data for CMCUc10 (Month 10) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:39,895 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:41,972 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:41,986 - INFO - Successfully fetched 1263 records for CMCUc10
+2025-07-05 11:21:42,152 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:42,152 - INFO - Successfully processed Month_10 - 1263 records
+2025-07-05 11:21:42,152 - INFO - Processing Month_11 (CMCUc11) - Month 11
+2025-07-05 11:21:42,152 - INFO - Fetching data for CMCUc11 (Month 11) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:42,155 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:42,753 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:42,769 - INFO - Successfully fetched 1263 records for CMCUc11
+2025-07-05 11:21:42,930 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:42,930 - INFO - Successfully processed Month_11 - 1263 records
+2025-07-05 11:21:42,930 - INFO - Processing Month_12 (CMCUc12) - Month 12
+2025-07-05 11:21:42,930 - INFO - Fetching data for CMCUc12 (Month 12) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:42,933 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:43,417 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:43,436 - INFO - Successfully fetched 1263 records for CMCUc12
+2025-07-05 11:21:43,639 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:43,639 - INFO - Successfully processed Month_12 - 1263 records
+2025-07-05 11:21:43,639 - INFO - Processing Month_13 (CMCUc13) - Month 13
+2025-07-05 11:21:43,639 - INFO - Fetching data for CMCUc13 (Month 13) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:43,642 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:45,772 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:45,791 - INFO - Successfully fetched 1263 records for CMCUc13
+2025-07-05 11:21:45,974 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:45,974 - INFO - Successfully processed Month_13 - 1263 records
+2025-07-05 11:21:45,974 - INFO - Processing Month_14 (CMCUc14) - Month 14
+2025-07-05 11:21:45,974 - INFO - Fetching data for CMCUc14 (Month 14) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:45,976 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:46,686 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:46,701 - INFO - Successfully fetched 1263 records for CMCUc14
+2025-07-05 11:21:46,885 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:46,885 - INFO - Successfully processed Month_14 - 1263 records
+2025-07-05 11:21:46,886 - INFO - Processing Month_15 (CMCUc15) - Month 15
+2025-07-05 11:21:46,886 - INFO - Fetching data for CMCUc15 (Month 15) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:46,888 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:47,597 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:47,606 - INFO - Successfully fetched 1263 records for CMCUc15
+2025-07-05 11:21:47,754 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:47,755 - INFO - Successfully processed Month_15 - 1263 records
+2025-07-05 11:21:47,755 - INFO - Processing Month_16 (CMCUc16) - Month 16
+2025-07-05 11:21:47,755 - INFO - Fetching data for CMCUc16 (Month 16) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:47,757 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:49,674 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:49,689 - INFO - Successfully fetched 1263 records for CMCUc16
+2025-07-05 11:21:49,881 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:49,881 - INFO - Successfully processed Month_16 - 1263 records
+2025-07-05 11:21:49,881 - INFO - Processing Month_17 (CMCUc17) - Month 17
+2025-07-05 11:21:49,881 - INFO - Fetching data for CMCUc17 (Month 17) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:49,883 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:50,434 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:50,450 - INFO - Successfully fetched 1263 records for CMCUc17
+2025-07-05 11:21:50,637 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:50,637 - INFO - Successfully processed Month_17 - 1263 records
+2025-07-05 11:21:50,637 - INFO - Processing Month_18 (CMCUc18) - Month 18
+2025-07-05 11:21:50,637 - INFO - Fetching data for CMCUc18 (Month 18) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:50,640 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:51,241 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:51,256 - INFO - Successfully fetched 1263 records for CMCUc18
+2025-07-05 11:21:51,426 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:51,426 - INFO - Successfully processed Month_18 - 1263 records
+2025-07-05 11:21:51,426 - INFO - Processing Month_19 (CMCUc19) - Month 19
+2025-07-05 11:21:51,426 - INFO - Fetching data for CMCUc19 (Month 19) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:51,429 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:51,956 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:51,971 - INFO - Successfully fetched 1263 records for CMCUc19
+2025-07-05 11:21:52,125 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:52,125 - INFO - Successfully processed Month_19 - 1263 records
+2025-07-05 11:21:52,125 - INFO - Processing Month_20 (CMCUc20) - Month 20
+2025-07-05 11:21:52,125 - INFO - Fetching data for CMCUc20 (Month 20) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:52,128 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:52,707 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:52,722 - INFO - Successfully fetched 1263 records for CMCUc20
+2025-07-05 11:21:52,886 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:52,886 - INFO - Successfully processed Month_20 - 1263 records
+2025-07-05 11:21:52,886 - INFO - Processing Month_21 (CMCUc21) - Month 21
+2025-07-05 11:21:52,886 - INFO - Fetching data for CMCUc21 (Month 21) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:52,888 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:53,391 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:53,407 - INFO - Successfully fetched 1263 records for CMCUc21
+2025-07-05 11:21:53,566 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:53,566 - INFO - Successfully processed Month_21 - 1263 records
+2025-07-05 11:21:53,566 - INFO - Processing Month_22 (CMCUc22) - Month 22
+2025-07-05 11:21:53,566 - INFO - Fetching data for CMCUc22 (Month 22) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:53,569 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:54,141 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:54,158 - INFO - Successfully fetched 1263 records for CMCUc22
+2025-07-05 11:21:54,331 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:54,331 - INFO - Successfully processed Month_22 - 1263 records
+2025-07-05 11:21:54,331 - INFO - Processing Month_23 (CMCUc23) - Month 23
+2025-07-05 11:21:54,331 - INFO - Fetching data for CMCUc23 (Month 23) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:54,334 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:54,806 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:54,822 - INFO - Successfully fetched 1263 records for CMCUc23
+2025-07-05 11:21:55,008 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:55,008 - INFO - Successfully processed Month_23 - 1263 records
+2025-07-05 11:21:55,008 - INFO - Processing Month_24 (CMCUc24) - Month 24
+2025-07-05 11:21:55,008 - INFO - Fetching data for CMCUc24 (Month 24) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:55,010 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:55,529 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:55,544 - INFO - Successfully fetched 1263 records for CMCUc24
+2025-07-05 11:21:55,700 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:55,700 - INFO - Successfully processed Month_24 - 1263 records
+2025-07-05 11:21:55,700 - INFO - Processing Month_25 (CMCUc25) - Month 25
+2025-07-05 11:21:55,700 - INFO - Fetching data for CMCUc25 (Month 25) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:55,703 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:56,237 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:56,253 - INFO - Successfully fetched 1263 records for CMCUc25
+2025-07-05 11:21:56,432 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:56,432 - INFO - Successfully processed Month_25 - 1263 records
+2025-07-05 11:21:56,432 - INFO - Processing Month_26 (CMCUc26) - Month 26
+2025-07-05 11:21:56,432 - INFO - Fetching data for CMCUc26 (Month 26) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:56,435 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:57,011 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:57,026 - INFO - Successfully fetched 1263 records for CMCUc26
+2025-07-05 11:21:57,219 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:57,219 - INFO - Successfully processed Month_26 - 1263 records
+2025-07-05 11:21:57,219 - INFO - Processing Month_27 (CMCUc27) - Month 27
+2025-07-05 11:21:57,219 - INFO - Fetching data for CMCUc27 (Month 27) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:57,222 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:57,682 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:57,698 - INFO - Successfully fetched 1263 records for CMCUc27
+2025-07-05 11:21:57,869 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:57,869 - INFO - Successfully processed Month_27 - 1263 records
+2025-07-05 11:21:57,871 - INFO - Processing Month_28 (CMCUc28) - Month 28
+2025-07-05 11:21:57,871 - INFO - Fetching data for CMCUc28 (Month 28) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:57,873 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:21:58,409 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:21:58,425 - INFO - Successfully fetched 1263 records for CMCUc28
+2025-07-05 11:21:58,584 - INFO - Successfully saved 1263 records
+2025-07-05 11:21:58,584 - INFO - Successfully processed Month_28 - 1263 records
+2025-07-05 11:21:58,584 - INFO - Processing Month_29 (CMCUc29) - Month 29
+2025-07-05 11:21:58,584 - INFO - Fetching data for CMCUc29 (Month 29) from 2020-07-06 to 2025-07-05
+2025-07-05 11:21:58,588 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:00,062 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:00,072 - INFO - Successfully fetched 1263 records for CMCUc29
+2025-07-05 11:22:00,219 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:00,219 - INFO - Successfully processed Month_29 - 1263 records
+2025-07-05 11:22:00,219 - INFO - Processing Month_30 (CMCUc30) - Month 30
+2025-07-05 11:22:00,219 - INFO - Fetching data for CMCUc30 (Month 30) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:00,222 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:00,874 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:00,887 - INFO - Successfully fetched 1263 records for CMCUc30
+2025-07-05 11:22:01,060 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:01,060 - INFO - Successfully processed Month_30 - 1263 records
+2025-07-05 11:22:01,060 - INFO - Processing Month_31 (CMCUc31) - Month 31
+2025-07-05 11:22:01,060 - INFO - Fetching data for CMCUc31 (Month 31) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:01,062 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:01,570 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:01,583 - INFO - Successfully fetched 1263 records for CMCUc31
+2025-07-05 11:22:01,734 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:01,734 - INFO - Successfully processed Month_31 - 1263 records
+2025-07-05 11:22:01,734 - INFO - Processing Month_32 (CMCUc32) - Month 32
+2025-07-05 11:22:01,734 - INFO - Fetching data for CMCUc32 (Month 32) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:01,737 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:02,332 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:02,348 - INFO - Successfully fetched 1263 records for CMCUc32
+2025-07-05 11:22:02,510 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:02,510 - INFO - Successfully processed Month_32 - 1263 records
+2025-07-05 11:22:02,510 - INFO - Processing Month_33 (CMCUc33) - Month 33
+2025-07-05 11:22:02,510 - INFO - Fetching data for CMCUc33 (Month 33) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:02,513 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:03,165 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:03,180 - INFO - Successfully fetched 1263 records for CMCUc33
+2025-07-05 11:22:03,346 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:03,346 - INFO - Successfully processed Month_33 - 1263 records
+2025-07-05 11:22:03,346 - INFO - Processing Month_34 (CMCUc34) - Month 34
+2025-07-05 11:22:03,346 - INFO - Fetching data for CMCUc34 (Month 34) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:03,349 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:05,511 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:05,525 - INFO - Successfully fetched 1263 records for CMCUc34
+2025-07-05 11:22:05,688 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:05,688 - INFO - Successfully processed Month_34 - 1263 records
+2025-07-05 11:22:05,688 - INFO - Processing Month_35 (CMCUc35) - Month 35
+2025-07-05 11:22:05,688 - INFO - Fetching data for CMCUc35 (Month 35) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:05,691 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:06,304 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:06,319 - INFO - Successfully fetched 1263 records for CMCUc35
+2025-07-05 11:22:06,483 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:06,483 - INFO - Successfully processed Month_35 - 1263 records
+2025-07-05 11:22:06,483 - INFO - Processing Month_36 (CMCUc36) - Month 36
+2025-07-05 11:22:06,483 - INFO - Fetching data for CMCUc36 (Month 36) from 2020-07-06 to 2025-07-05
+2025-07-05 11:22:06,486 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/v1/data "HTTP/1.1 307 Temporary Redirect"
+2025-07-05 11:22:07,017 - INFO - HTTP Request: POST http://127.0.0.1:9000/api/udf "HTTP/1.1 200 OK"
+2025-07-05 11:22:07,034 - INFO - Successfully fetched 1263 records for CMCUc36
+2025-07-05 11:22:07,199 - INFO - Successfully saved 1263 records
+2025-07-05 11:22:07,199 - INFO - Successfully processed Month_36 - 1263 records
+2025-07-05 11:22:07,199 - INFO - Data collection completed. Successfully processed 36/36 contracts
+2025-07-05 11:22:07,199 - INFO - Total records collected: 45407
+2025-07-05 11:22:07,199 - INFO - Futures data collection completed successfully
+2025-07-05 11:22:07,213 - INFO - Futures Data Summary:
+2025-07-05 11:22:07,213 - INFO -   Month_01: 1202 records ($8793.27 avg, Vol: 276133)
+2025-07-05 11:22:07,213 - INFO -   Month_02: 1263 records ($8801.20 avg, Vol: 653209)
+2025-07-05 11:22:07,213 - INFO -   Month_03: 1263 records ($8807.76 avg, Vol: 578199)
+2025-07-05 11:22:07,213 - INFO -   Month_04: 1263 records ($8813.59 avg, Vol: 350216)
+2025-07-05 11:22:07,213 - INFO -   Month_05: 1263 records ($8818.89 avg, Vol: 172522)
+2025-07-05 11:22:07,213 - INFO -   Month_06: 1263 records ($8823.54 avg, Vol: 81399)
+2025-07-05 11:22:07,214 - INFO -   Month_07: 1263 records ($8827.73 avg, Vol: 51205)
+2025-07-05 11:22:07,214 - INFO -   Month_08: 1263 records ($8831.03 avg, Vol: 34652)
+2025-07-05 11:22:07,214 - INFO -   Month_09: 1263 records ($8833.67 avg, Vol: 29043)
+2025-07-05 11:22:07,214 - INFO -   Month_10: 1263 records ($8835.41 avg, Vol: 30071)
+2025-07-05 11:22:07,214 - INFO -   Month_11: 1263 records ($8836.55 avg, Vol: 20498)
+2025-07-05 11:22:07,214 - INFO -   Month_12: 1263 records ($8837.31 avg, Vol: 27352)
+2025-07-05 11:22:07,214 - INFO -   Month_13: 1263 records ($8837.82 avg, Vol: 18026)
+2025-07-05 11:22:07,214 - INFO -   Month_14: 1263 records ($8837.52 avg, Vol: 9396)
+2025-07-05 11:22:07,214 - INFO -   Month_15: 1263 records ($8837.19 avg, Vol: 3584)
+2025-07-05 11:22:07,214 - INFO -   Month_16: 1263 records ($8836.66 avg, Vol: 2520)
+2025-07-05 11:22:07,214 - INFO -   Month_17: 1263 records ($8835.94 avg, Vol: 4698)
+2025-07-05 11:22:07,214 - INFO -   Month_18: 1263 records ($8835.10 avg, Vol: 2657)
+2025-07-05 11:22:07,214 - INFO -   Month_19: 1263 records ($8833.93 avg, Vol: 4649)
+2025-07-05 11:22:07,214 - INFO -   Month_20: 1263 records ($8832.67 avg, Vol: 4664)
+2025-07-05 11:22:07,214 - INFO -   Month_21: 1263 records ($8831.34 avg, Vol: 2166)
+2025-07-05 11:22:07,214 - INFO -   Month_22: 1263 records ($8829.98 avg, Vol: 3899)
+2025-07-05 11:22:07,214 - INFO -   Month_23: 1263 records ($8828.56 avg, Vol: 2135)
+2025-07-05 11:22:07,214 - INFO -   Month_24: 1263 records ($8827.10 avg, Vol: 1975)
+2025-07-05 11:22:07,214 - INFO -   Month_25: 1263 records ($8825.58 avg, Vol: 2720)
+2025-07-05 11:22:07,214 - INFO -   Month_26: 1263 records ($8823.87 avg, Vol: 3489)
+2025-07-05 11:22:07,214 - INFO -   Month_27: 1263 records ($8822.02 avg, Vol: 1239)
+2025-07-05 11:22:07,214 - INFO -   Month_28: 1263 records ($8820.00 avg, Vol: 480)
+2025-07-05 11:22:07,214 - INFO -   Month_29: 1263 records ($8817.90 avg, Vol: 695)
+2025-07-05 11:22:07,214 - INFO -   Month_30: 1263 records ($8815.72 avg, Vol: 1019)
+2025-07-05 11:22:07,214 - INFO -   Month_31: 1263 records ($8813.29 avg, Vol: 469)
+2025-07-05 11:22:07,214 - INFO -   Month_32: 1263 records ($8810.73 avg, Vol: 338)
+2025-07-05 11:22:07,214 - INFO -   Month_33: 1263 records ($8808.02 avg, Vol: 786)
+2025-07-05 11:22:07,214 - INFO -   Month_34: 1263 records ($8805.39 avg, Vol: 693)
+2025-07-05 11:22:07,214 - INFO -   Month_35: 1263 records ($8802.69 avg, Vol: 258)
+2025-07-05 11:22:07,214 - INFO -   Month_36: 1263 records ($8800.05 avg, Vol: 203)
+2025-07-05 11:22:07,214 - INFO - Latest Futures Curve:
+2025-07-05 11:22:07,214 - INFO -   Month  1: $ 9923.29 (Vol:     76)
+2025-07-05 11:22:07,214 - INFO -   Month  2: $ 9887.30 (Vol:    465)
+2025-07-05 11:22:07,214 - INFO -   Month  3: $ 9873.62 (Vol:    270)
+2025-07-05 11:22:07,214 - INFO -   Month  4: $ 9861.73 (Vol:      9)
+2025-07-05 11:22:07,214 - INFO -   Month  5: $ 9855.23 (Vol:      5)
+2025-07-05 11:22:07,214 - INFO -   Month  6: $ 9851.23 (Vol:      7)
+2025-07-05 11:22:07,214 - INFO -   Month  7: $ 9847.23 (Vol:    121)
+2025-07-05 11:22:07,214 - INFO -   Month  8: $ 9845.23 (Vol:     81)
+2025-07-05 11:22:07,214 - INFO -   Month  9: $ 9843.23 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 10: $ 9845.23 (Vol:     87)
+2025-07-05 11:22:07,214 - INFO -   Month 11: $ 9844.23 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 12: $ 9841.23 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 13: $ 9841.73 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 14: $ 9845.73 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 15: $ 9852.23 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 16: $ 9858.73 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 17: $ 9865.23 (Vol:      1)
+2025-07-05 11:22:07,214 - INFO -   Month 18: $ 9871.23 (Vol:     20)
+2025-07-05 11:22:07,214 - INFO -   Month 19: $ 9873.23 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 20: $ 9875.23 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 21: $ 9876.98 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 22: $ 9878.48 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 23: $ 9879.98 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 24: $ 9881.23 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 25: $ 9882.73 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 26: $ 9884.23 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 27: $ 9885.98 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 28: $ 9887.73 (Vol:      0)
+2025-07-05 11:22:07,214 - INFO -   Month 29: $ 9889.48 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 30: $ 9891.23 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 31: $ 9892.98 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 32: $ 9894.73 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 33: $ 9896.48 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 34: $ 9898.23 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 35: $ 9899.98 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO -   Month 36: $ 9901.73 (Vol:      0)
+2025-07-05 11:22:07,215 - INFO - Database connection closed
