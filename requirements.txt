@@ -1,0 +1,68 @@
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Database
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+alembic>=1.8.0
+
+# Refinitiv EIKON API
+eikon>=1.1.15
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Time Series Analysis
+statsmodels>=0.13.0
+pmdarima>=2.0.0
+arch>=5.3.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Deep Learning (Optional)
+tensorflow>=2.10.0
+keras>=2.10.0
+torch>=1.12.0
+
+# Time Series Forecasting
+prophet>=1.1.0
+sktime>=0.13.0
+
+# Financial Analysis
+yfinance>=0.1.70
+QuantLib>=1.27
+pyfolio>=0.9.2
+
+# Utilities
+python-dotenv>=0.20.0
+tqdm>=4.64.0
+schedule>=1.2.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Development & Testing
+jupyter>=1.0.0
+notebook>=6.4.0
+ipywidgets>=7.7.0
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Configuration
+pyyaml>=6.0
+configparser>=5.3.0
+
+# Monitoring & Logging
+logging>=0.4.9.6
+mlflow>=1.30.0
+
+# Risk Management
+pymc>=4.2.0
+arviz>=0.12.0

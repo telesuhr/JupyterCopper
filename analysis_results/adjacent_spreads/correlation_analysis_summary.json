@@ -1,0 +1,10 @@
+{
+  "max_correlation": [
+    "M2_M3_spread vs M3_M4_spread",
+    0.9537517759653593
+  ],
+  "cointegrated_pairs": 3,
+  "pca_pc1_contribution": 0.8275785262594126,
+  "arbitrage_opportunities": 3,
+  "average_correlation": 0.7353250871953865
+}
