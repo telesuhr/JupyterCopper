@@ -1,0 +1,15 @@
+{
+  "arch_effects_detected": 2,
+  "volatility_clustering_detected": 2,
+  "best_models": {
+    "M1-M2": "EGARCH(1,1)",
+    "M2-M3": "GJR-GARCH(1,1)",
+    "M3-M4": "EGARCH(1,1)"
+  },
+  "highest_risk_spread": "M2-M3",
+  "regime_instability": [
+    "M1-M2",
+    "M2-M3",
+    "M3-M4"
+  ]
+}

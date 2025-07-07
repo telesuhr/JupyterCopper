@@ -1,0 +1,27 @@
+{
+  "data_period": [
+    "2020-07-07",
+    "2025-07-04"
+  ],
+  "sample_size": 1198,
+  "spread_characteristics": {
+    "M1_M2_positive_ratio": 36.727879799666105,
+    "M2_M3_positive_ratio": 36.56093489148581,
+    "M3_M4_positive_ratio": 40.40066777963272
+  },
+  "correlations": {
+    "M1M2_vs_M2M3": 0.6528468780006221,
+    "M2M3_vs_M3M4": 0.9538197950039443
+  },
+  "seasonality_significant": true,
+  "volatility_years": {
+    "highest": [
+      2021.0,
+      78.38362809890212
+    ],
+    "lowest": [
+      2020.0,
+      6.277618623703937
+    ]
+  }
+}
